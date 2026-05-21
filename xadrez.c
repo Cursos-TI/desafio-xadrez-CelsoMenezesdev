@@ -38,7 +38,7 @@ int main() {
 {
    printf("%d Baixo. \n", CAVALO);
 } 
- while (ESQUERDA < 1) ++ESQUERDA;
+ while (ESQUERDA < 1) ESQUERDA++;
 {
     printf("%d Esquerda. \n", ESQUERDA);
 }
